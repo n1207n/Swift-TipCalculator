@@ -1,6 +1,6 @@
 //
-//  Tip_Calculator_DebugTests.swift
-//  Tip Calculator DebugTests
+//  Tip_CalculatorTests.swift
+//  Tip Calculator Tests
 //
 //  Created by Silin Na on 6/14/14.
 //  Copyright (c) 2014 Silin Na. All rights reserved.

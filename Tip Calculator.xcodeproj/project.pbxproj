@@ -34,7 +34,7 @@
 		4BDDEAD8194D328900CCB4F0 /* TipCalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculatorViewController.swift; sourceTree = "<group>"; };
 		4BDDEADB194D328900CCB4F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4BDDEADD194D328900CCB4F0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		4BDDEAE3194D328900CCB4F0 /* Tip Calculator DebugTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Tip Calculator DebugTests.xctest"; path = "Tip CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BDDEAE3194D328900CCB4F0 /* Tip CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tip CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BDDEAE8194D328900CCB4F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4BDDEAE9194D328900CCB4F0 /* Tip_CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip_CalculatorTests.swift; sourceTree = "<group>"; };
 		4BE32782194D397000EA719A /* ShowCalculatedResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowCalculatedResultViewController.swift; sourceTree = "<group>"; };
@@ -71,7 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				4BDDEACF194D328900CCB4F0 /* Tip Calculator.app */,
-				4BDDEAE3194D328900CCB4F0 /* Tip Calculator DebugTests.xctest */,
+				4BDDEAE3194D328900CCB4F0 /* Tip CalculatorTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -150,7 +150,7 @@
 			);
 			name = "Tip CalculatorTests";
 			productName = "Tip Calculator DebugTests";
-			productReference = 4BDDEAE3194D328900CCB4F0 /* Tip Calculator DebugTests.xctest */;
+			productReference = 4BDDEAE3194D328900CCB4F0 /* Tip CalculatorTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */

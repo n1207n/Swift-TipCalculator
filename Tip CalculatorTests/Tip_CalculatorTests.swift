@@ -1,6 +1,6 @@
 //
-//  Tip_CalculatorTests.swift
-//  Tip CalculatorTests
+//  Tip_Calculator_DebugTests.swift
+//  Tip Calculator DebugTests
 //
 //  Created by Silin Na on 6/14/14.
 //  Copyright (c) 2014 Silin Na. All rights reserved.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class Tip_CalculatorTests: XCTestCase {
+class Tip_Calculator_DebugTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

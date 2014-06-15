@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  Tip Calculator
+//  Tip Calculator Debug
 //
 //  Created by Silin Na on 6/14/14.
 //  Copyright (c) 2014 Silin Na. All rights reserved.
@@ -77,7 +77,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     // If the model doesn't already exist, it is created from the application's model.
     var managedObjectModel: NSManagedObjectModel {
         if !_managedObjectModel {
-            let modelURL = NSBundle.mainBundle().URLForResource("Tip_Calculator", withExtension: "momd")
+            let modelURL = NSBundle.mainBundle().URLForResource("Tip_Calculator_Debug", withExtension: "momd")
             _managedObjectModel = NSManagedObjectModel(contentsOfURL: modelURL)
         }
         return _managedObjectModel!
@@ -88,7 +88,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     // If the coordinator doesn't already exist, it is created and the application's store added to it.
     var persistentStoreCoordinator: NSPersistentStoreCoordinator {
         if !_persistentStoreCoordinator {
-            let storeURL = self.applicationDocumentsDirectory.URLByAppendingPathComponent("Tip_Calculator.sqlite")
+            let storeURL = self.applicationDocumentsDirectory.URLByAppendingPathComponent("Tip_Calculator_Debug.sqlite")
             var error: NSError? = nil
             _persistentStoreCoordinator = NSPersistentStoreCoordinator(managedObjectModel: self.managedObjectModel)
             if _persistentStoreCoordinator!.addPersistentStoreWithType(NSSQLiteStoreType, configuration: nil, URL: storeURL, options: nil, error: &error) == nil {
